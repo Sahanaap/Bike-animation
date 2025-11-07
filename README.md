@@ -1,2 +1,23 @@
-# Bike-animation
-A bike animation using only HTML and CSS visually shows a moving bike without JavaScript. It uses HTML to create the bike’s structure and CSS animations like @keyframes and transform to rotate wheels and move the bike across the screen, creating a smooth, realistic motion effect purely with styling.
+# 🚀 Bike animation
+
+### 📖 Description
+This is a simple and responsive website built using **HTML and CSS**.  
+It includes clean animations, modern layout design, and a fully responsive structure for all devices.  
+
+### 🎯 Features
+- Responsive design for mobile, tablet, and desktop  
+- Smooth CSS animations  
+- Organized and clean code  
+- Easy to customize  
+
+### 🛠️ Tech Stack
+- **HTML5**  
+- **CSS3**
+
+### 📸 Preview
+(Add screenshots or a video demo of your project here)
+
+### ⚙️ How to Run
+1. Download or clone the repository  
+   ```bash
+ git clone https://github.com/yourusername/projectname.git
