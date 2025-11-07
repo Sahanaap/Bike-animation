@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sky{
+    background-image: url('sky2.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+
+}
+
+.highway{
+    height: 150px;
+    width: 800%;
+    display: block;
+    background-image: url('road3.jpg');
+    position: absolute;
+    background-repeat: repeat-x;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: highway 5s linear infinite;
+    z-index: 1;
+}
+
+@keyframes highway{
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+
+.city{
+      height: 400px;
+      width: 500%;
+      display: block;
+      background-image: url('City4.jpg');
+      position: absolute;
+      bottom: 150px;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      animation: city 20s linear infinite;
+
+}
+
+@keyframes city{
+    100%{
+        transform: translateX(-1400px);
+    }
+}
+
+.Bike{
+    width: 400px;
+    height: auto;
+    bottom: 100px;
+    left: 900px;
+    right: -200px;
+   transform: translateX(-100px);
+    position: absolute;
+    z-index: 10;
+}
+.Bike img{
+    width: 100%;
+    animation: Bike 2s linear infinite;
+}
+
+@keyframes Bike {
+    100% {
+        transform: translateX(0) translateY(0);       
+    }
+    50% {
+        transform: translateX(-50vw) translateY(2px); 
+    }
+    100% {
+        transform: translateX(-110vw) translateY(0);
+    }
+}
